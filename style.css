@@ -1,0 +1,61 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1 {
+    color: blue;
+
+}
+
+#form-tarefa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+#input-tarefa {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+}
+
+button:haver {
+    background-color: blue;
+}
+
+#lista-tarefas {
+    list-style: none;
+    padding: 0;
+    width: 400px;
+}
+button houver {
+    background-color: blue;
+}
+#lista-de-tarefas li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deletar-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    
